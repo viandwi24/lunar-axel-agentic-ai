@@ -12,4 +12,5 @@ const res = await yh.chart('XAUT-USD', {
   period2: '2025-12-31',
   interval: '1d',
 });
+
 console.log(res.quotes.length);
